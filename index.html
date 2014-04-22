@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>wip</title>
+        <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+        <style>
+            body{font-family:"Inconsolata", Menlo, Monaco, monospace;color:#FDFDFD;background-color:#101010;}
+            .motd{margin-left:auto;margin-right:auto;}
+            pre{font-size:14px;display:block;}
+            .suberror{font-size:25px;color:#323232;text-align:center;}
+            .quote{text-align:center;}
+            ::selection{background:#DFDFDF;color:#212121;}::-moz-selection{background:#DFDFDF;color:#212121;}::-webkit-selection{background:#DFDFDF;color:#212121;}
+        </style>
+    </head>
+    <body>
+        <div class="motd">
+            <pre>
+                          __                                        __          
+               __        /\ \                                      /\ \__       
+          ____/\_\    ___\ \ \___      __    ___        ___      __\ \ ,_\      
+         /',__\/\ \  /'___\ \  _ `\  /'__`\/' _ `\    /' _ `\  /'__`\ \ \/      
+        /\__, `\ \ \/\ \__/\ \ \ \ \/\  __//\ \/\ \ __/\ \/\ \/\  __/\ \ \_     
+        \/\_____\ \ \ \____\\ \_\ \_\ \____\ \_\ \_/\_\ \_\ \_\ \____\\ \__\    
+         \/___/\ \_\ \/____/ \/_/\/_/\/____/\/_/\/_\/_/\/_/\/_/\/____/ \/__/    
+              \ \____/                                                          
+               \/___/                                                           </pre><br>
+            <p class="quote">It's not the daily increase but daily decrease. Hack away at the unessential.</p>
+        </div>
+    </body>
+    <script src="//code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
+    <script async type="text/javascript">$(".motd").css({position:"absolute",left:($(window).width()-$(".motd").outerWidth())/2,top:($(window).height()-$(".motd").outerHeight())/2});$(window).resize(function(){$(".motd").css({position:"absolute",left:($(window).width()-$(".motd").outerWidth())/2,top:($(window).height()-$(".motd").outerHeight())/2})});$(window).resize()</script>
+</html>
